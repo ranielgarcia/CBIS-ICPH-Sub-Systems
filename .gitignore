@@ -1,0 +1,26 @@
+# Build output / intermediates
+[Bb]in/
+[Oo]bj/
+*.dll
+*.exe
+*.pdb
+*.vshost.*
+*.cache
+*.resources
+*.xml
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+
+# JetBrains
+.idea/
+*.DotSettings.user
+
+# Test results
+TestResults/
+*.trx
+
+# Logs
+*.log

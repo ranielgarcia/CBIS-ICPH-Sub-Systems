@@ -1,26 +1,52 @@
-# Build output / intermediates
+# -- Build output / intermediates (.NET Framework WinForms) --
 [Bb]in/
 [Oo]bj/
 *.dll
 *.exe
 *.pdb
+*.xap
+*.aps
+*.ilk
+*.ncb
+*.sbr
+*.tlb
 *.vshost.*
 *.cache
 *.resources
 *.xml
+*.log
+*.dmp
 
-# Visual Studio
+# -- Visual Studio / per-user IDE state --
 .vs/
 *.suo
+*.vbproj.user
+*.csproj.user
 *.user
+*.userosscache
+*.sln.docstates
+*.dtbcache.v2
+*.upgrade.log*
+*.sln.ide
 
-# JetBrains
+# -- ClickOnce publish / packaging --
+Publish/
+PublishProfiles/
+*.publish.xml
+*.publish.sql.deploy
+publish.config
+
+# -- ReSharper / JetBrains --
 .idea/
 *.DotSettings.user
+*_ReSharper*/
+_Rosharp_/
 
-# Test results
+# -- Test results --
 TestResults/
 *.trx
 
-# Logs
-*.log
+# -- OS / editor junk --
+Thumbs.db
+Desktop.ini
+.DS_Store
